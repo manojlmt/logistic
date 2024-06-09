@@ -1,0 +1,6 @@
+curl --location 'http://127.0.0.1:8000/api/lookup-city/' \
+--header 'Content-Type: application/json' \
+--data '{
+    "city_name_1":"Bengaluru",
+    "city_name_2":"Mumbai"
+}'
